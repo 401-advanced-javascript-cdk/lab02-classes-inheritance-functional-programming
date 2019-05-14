@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint **/*.js",
+    "test": "jest --coverage --verbose --color"
   },
   "repository": {
     "type": "git",
@@ -14,6 +15,10 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/401-advanced-javascript-cdk/lab02-classes-inheritance-functional-programming/issues"
+  },
+  "dependencies": {
+    "eslint": "^5.16.0",
+    "jest": "^24.8.0"
   },
   "homepage": "https://github.com/401-advanced-javascript-cdk/lab02-classes-inheritance-functional-programming#readme"
 }
