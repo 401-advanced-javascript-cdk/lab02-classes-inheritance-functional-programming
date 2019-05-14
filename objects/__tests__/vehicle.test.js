@@ -12,14 +12,14 @@ describe('Vehicles', () => {
     
     function getCar(type) {
       switch(type) {
-        case 'Constructor':
-          return new VehicleConstructor.Car('foo');
-        case 'Class':
-          return new VehicleClass.Car('blegh');
-        case 'Factory':
-          return VehicleFactory.CarFactory('a name');
-        default:
-          return {};
+      case 'Constructor':
+        return new VehicleConstructor.Car('foo');
+      case 'Class':
+        return new VehicleClass.Car('blegh');
+      case 'Factory':
+        return VehicleFactory.CarFactory('a name');
+      default:
+        return {};
       }
     }
     
@@ -50,14 +50,14 @@ describe('Vehicles', () => {
 
     function getMotorcycle(type) {
       switch(type) {
-        case 'Constructor':
-          return new VehicleConstructor.Motorcycle('foo');
-        case 'Class':
-          return new VehicleClass.Motorcycle('yeehaw');
-        case 'Factory':
-          return VehicleFactory.MotorcycleFactory('hurly');
-        default:
-          return {};
+      case 'Constructor':
+        return new VehicleConstructor.Motorcycle('foo');
+      case 'Class':
+        return new VehicleClass.Motorcycle('yeehaw');
+      case 'Factory':
+        return VehicleFactory.MotorcycleFactory('hurly');
+      default:
+        return {};
       }
     }
 
