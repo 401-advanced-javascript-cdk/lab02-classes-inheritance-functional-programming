@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint **/*.js",
     "test": "jest --coverage --verbose --color"
-},
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/401-advanced-javascript-cdk/lab02-classes-inheritance-functional-programming.git"
