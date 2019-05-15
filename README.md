@@ -7,7 +7,7 @@
 ### Author: Chris Kozlowski
 
 ### Links and Resources
-* [Submission PR](https://github.com/401-advanced-javascript-cdk/lab02-classes-inheritance-functional-programming/pull/1)
+* [Submission PR](https://github.com/401-advanced-javascript-cdk/lab02-classes-inheritance-functional-programming/pull/5)
 * [Travis](https://travis-ci.com/401-advanced-javascript-cdk/lab02-classes-inheritance-functional-programming)
 
 ### Modules
