@@ -13,14 +13,14 @@
 ### Modules
 #### `objects/vehicle-class.js`
 ##### Exported Values and Methods
-###### `Car(name) -> `object`
+###### `Car(name)` -> `object`
 Returns a car object.  Created with a Class constructor that extends from the Vehicle class.
-###### `Motocycle(name) -> `object`
+###### `Motocycle(name)` -> `object`
 Returns a motorcycle object.  Created with a Class constructor that extends from the Vehicle class.
-###### `drive() -> `string`
-###### `stop() -> `string`
+###### `drive()` -> `string`
+###### `stop()` -> `string`
 Class methods inherited from the Vehicle class.  Returns a response string.
-###### `wheelie() -> `string`
+###### `wheelie()` -> `string`
 Class method from Motorcycle Class constructor which returns a response string.
 
 #### `objects/vehicle-factory.js`
@@ -29,10 +29,10 @@ Class method from Motorcycle Class constructor which returns a response string.
 Returns a car object created from a factory function.
 ###### `MotorcycleFactory(name)` -> `object`
 Returns a motorcycle object created from a factory function.
-###### `drive() -> `string`
-###### `stop() -> `string`
+###### `drive()` -> `string`
+###### `stop()` -> `string`
 Methods inherited from the Vehicle function.  Returns a response string.
-###### `wheelie() -> `string`
+###### `wheelie()` -> `string`
 Method from MotorcycleFactory which returns a response string.
 
 #### Tests
